@@ -65,11 +65,14 @@ TextCNN超参数在每个实验中保持一致。详情见TextCNN.py class Confi
 # 训练并测试(无对抗训练)：
 # TextCNN
 python run.py --model TextCNN
+
 # 训练并测试(对有抗训练)：
 # TextCNN + FGSM
 python run.py --model TextCNN --adversarial FGSM
+
 # TextCNN + PGD
 python run.py --model TextCNN --adversarial PGD
+
 # TextCNN + FREE
 python run.py --model TextCNN --adversarial FREE
 ```
@@ -81,8 +84,8 @@ python run.py --model TextCNN --adversarial FREE
 [4] Recurrent Convolutional Neural Networks for Text Classification  
 [5] Bag of Tricks for Efficient Text Classification  
 [6] Deep Pyramid Convolutional Neural Networks for Text Categorization  
-[7] Attention Is All You Need  
-[8]Fast is better than free: Revisiting adversarial training
-[9] https://github.com/locuslab/fast_adversarial
-[10] https://github.com/649453932/Chinese-Text-Classification-Pytorch
+[7] Attention Is All You Need
+[8]Fast is better than free: Revisiting adversarial training 
+[9] https://github.com/locuslab/fast_adversarial 
+[10] https://github.com/649453932/Chinese-Text-Classification-Pytorch 
 
