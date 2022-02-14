@@ -85,7 +85,7 @@ python run.py --model TextCNN --adversarial FREE
 [5] Bag of Tricks for Efficient Text Classification  
 [6] Deep Pyramid Convolutional Neural Networks for Text Categorization  
 [7] Attention Is All You Need
-[8]Fast is better than free: Revisiting adversarial training 
+[8] Fast is better than free: Revisiting adversarial training 
 [9] https://github.com/locuslab/fast_adversarial 
 [10] https://github.com/649453932/Chinese-Text-Classification-Pytorch 
 
