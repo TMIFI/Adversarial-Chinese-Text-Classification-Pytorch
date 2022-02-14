@@ -1,4 +1,4 @@
-##Pytorch 对抗训练 + 中文文本分类 
+## Pytorch 对抗训练 + 中文文本分类 
 
 ## 介绍
 基于Pytorch实现的中文文本分类器与对抗训练功能（即插即用）。模型和对抗训练容易调用与调试。
@@ -13,22 +13,22 @@ sklearn
 tensorboardX
 
 ## 代码结构
-adversarial: FGSM, FREE, PGD 类定义，攻击，还原功能
-models: 模型定义及模型参数配置
-run.py: 程序运行Main()
-train_eval.py：初始化网络，模型实际训练，测试，评估
-utils.py: 数据集处理
+### adversarial: FGSM, FREE, PGD 类定义，攻击，还原功能
+### models: 模型定义及模型参数配置
+### run.py: 程序运行Main()
+### train_eval.py：初始化网络，模型实际训练，测试，评估
+### utils.py: 数据集处理
 
 ## 模型和数据集
 分类器和数据实现基于（https://github.com/649453932/Chinese-Text-Classification-Pytorch）
 
-###分类器
+### 分类器
 分类器: TextCNN，TextRNN，FastText，TextRCNN，BiLSTM_Attention, DPCNN, Transformer
 
-###对抗训练
+### 对抗训练
 对抗训练方法: FGSM, PGD, FREE
 
-###数据集介绍
+### 数据集介绍
 [THUCNews](http://thuctc.thunlp.org/)中抽取了20万条新闻标题，已上传至github，文本长度在20到30之间。一共10个类别，每类2万条。
 
 类别：财经、房产、股票、教育、科技、社会、时政、体育、游戏、娱乐。
